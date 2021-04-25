@@ -1,0 +1,184 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'en' Physical Memory: 8092 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Weisl/Google Drive/Study/VR/BasicShooterGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63861
+Successfully changed project path to: C:/Users/Weisl/Google Drive/Study/VR/BasicShooterGame
+C:/Users/Weisl/Google Drive/Study/VR/BasicShooterGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Weisl/Google Drive/Study/VR/BasicShooterGame/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     4046 MB
+    Driver:   26.20.100.8142
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004248 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.470 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001460 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.824 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1121 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 69.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1582.
+Total: 2.494700 ms (FindLiveObjects: 0.289700 ms CreateObjectMapping: 0.056500 ms MarkObjects: 2.043600 ms  DeleteObjects: 0.102600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/scripts/player/PlayerShooting.cs
+  artifactKey: Guid(cee8ebfb34bbe7542a22b9deb797fca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/player/PlayerShooting.cs using Guid(cee8ebfb34bbe7542a22b9deb797fca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a0bc2643f72e33a6b142027fe62a43') in 0.188852 seconds
+  Import took 0.196771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047931 seconds.
+  path: Assets/Tree_Textures/normal_specular.png
+  artifactKey: Guid(3bc1a5b45c971094bb2191a30c5f56f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/normal_specular.png using Guid(3bc1a5b45c971094bb2191a30c5f56f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd377418552b1d891444d41e65d5cb9dc') in 0.245132 seconds
+  Import took 0.249065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008824 seconds.
+  path: Assets/Tree_Textures/diffuse.png
+  artifactKey: Guid(65d0842e9e25e46459154cdbca4804a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/diffuse.png using Guid(65d0842e9e25e46459154cdbca4804a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0bcb2478744a1214cd20355a62598a') in 0.026391 seconds
+  Import took 0.033707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016398 seconds.
+  path: Assets/scripts/Projectile.cs
+  artifactKey: Guid(e0dcee16cd127da4295f0012f93700e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Projectile.cs using Guid(e0dcee16cd127da4295f0012f93700e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398fec4ab8942398fbaab41cede7a35e') in 0.010844 seconds
+  Import took 0.017157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061136 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8918c537ffe89a7b106720d9c57bcb7') in 0.015507 seconds
+  Import took 0.020714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039552 seconds.
+  path: Assets/Tree_Textures/translucency_gloss.png
+  artifactKey: Guid(e6937ab04005fcc49bf38ada0fdd264e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(e6937ab04005fcc49bf38ada0fdd264e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c47c7269fb8f46d86b7eb824a1df91') in 0.029742 seconds
+  Import took 0.034345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023596 seconds.
+  path: Assets/scripts/Enemy/Enemy.cs
+  artifactKey: Guid(cae4b23ca2089b64e867e62fce198223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Enemy/Enemy.cs using Guid(cae4b23ca2089b64e867e62fce198223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4520ed4ec3b14e8c685285e2a976c8') in 0.012191 seconds
+  Import took 0.019209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043242 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(074e6808dbe5a3644b5cbd6830654075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(074e6808dbe5a3644b5cbd6830654075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c654b42f5a3462bff99a6a89f01e5e') in 0.359517 seconds
+  Import took 0.365849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040018 seconds.
+  path: Assets/scripts/Enemy/EnemyProducer.cs
+  artifactKey: Guid(17f9fcca3e520984f9f80ea67ca1b702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Enemy/EnemyProducer.cs using Guid(17f9fcca3e520984f9f80ea67ca1b702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09952c08063cf53e738467b0b729e787') in 0.023611 seconds
+  Import took 0.037921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006723 seconds.
+  path: Assets/Tree_Textures
+  artifactKey: Guid(2edc4f9a11168a74986960eaa51500eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures using Guid(2edc4f9a11168a74986960eaa51500eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3bcf2f7a7ac0c30fa7bfc3ca19bb6b') in 0.010939 seconds
+  Import took 0.015554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020465 seconds.
+  path: Assets/Tree_Textures/shadow.png
+  artifactKey: Guid(29c4c99db5d0d5f45b5b6a84444c6071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/shadow.png using Guid(29c4c99db5d0d5f45b5b6a84444c6071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7b4d75327a0138acc5d894c0dba875') in 0.022214 seconds
+  Import took 0.026345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063378 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(ac6a4ed198bc4834586b2d1f3c9f39b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(ac6a4ed198bc4834586b2d1f3c9f39b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c2c85417c868b2207607ec223254b2') in 0.011770 seconds
+  Import took 0.015920 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001972 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.847 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1631.
+Total: 12.679500 ms (FindLiveObjects: 1.061500 ms CreateObjectMapping: 1.023700 ms MarkObjects: 10.418800 ms  DeleteObjects: 0.149500 ms)
+
