@@ -14,10 +14,24 @@ public class EnemyProducer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Player currentPlayer = gameObject.GetComponent<Player>();
-        Enemy enemy = Instantiate(enemy1).GetComponent<Enemy>();
-        Instantiate(enemy2);
-        Instantiate(enemy3);
+		var enemyNum = UnityEngine.Random.Range(1, 4);
+		switch(enemyNum) {
+			case 1: 
+				Instantiate(enemy1, 
+					new Vector3(UnityEngine.Random.Range(-10, 10), 0, UnityEngine.Random.Range(-10, 10)), 
+					Quaternion.identity);
+				break;
+			case 2: 
+				Instantiate(enemy2, 
+					new Vector3(UnityEngine.Random.Range(-10, 10), 0, UnityEngine.Random.Range(-10, 10)), 
+					Quaternion.identity);
+			break;
+			default:
+				Instantiate(enemy3, 
+					new Vector3(UnityEngine.Random.Range(-10, 10), 0, UnityEngine.Random.Range(-10, 10)), 
+					Quaternion.identity);
+			break;
+		}      
     }
 
     // Update is called once per frame
